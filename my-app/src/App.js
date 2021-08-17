@@ -1,9 +1,13 @@
 import './App.css';
+import SeatComponent from './component/SeatComponent';
 
 function App() {
   return (
-    <div className="App background__container">
-        
+    <div className="App">
+      <div>
+      <SeatComponent></SeatComponent>
+
+      </div>
     </div>
   );
 }
