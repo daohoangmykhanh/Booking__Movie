@@ -24,7 +24,7 @@ export default class SeatComponent extends Component {
                     {" "}
                     Number of Seats<span style={{ color: "red" }}>*</span>
                   </span>
-                  <input type="number" />
+                  <input type="number" required min="1" />
                 </div>
               </div>
               <button> Start Selecting</button>
@@ -963,6 +963,7 @@ export default class SeatComponent extends Component {
                           type="checkbox"
                           className="seats"
                           defaultValue="J1"
+                          disabled
                         />
                       </td>
                       <td>
@@ -986,6 +987,7 @@ export default class SeatComponent extends Component {
                           type="checkbox"
                           className="seats"
                           defaultValue="J4"
+                          disabled
                         />
                       </td>
                       <td>
